@@ -4,8 +4,12 @@ A project to create a load balanced websocket server using apache gunicorn and f
 ## Setup:
 Make sure you have apache 2.4, MySql, and OpenSSL installed on your server
 
-You will need to create a MySql database named pysocket_db with the user: pysocket_admin and password: @Y0ur51t3!
-Or you can change the mysql connection setting in config/development.py, config/production.py, and config/testing.py
+You will need to create a MySql database with the following: 
+- DB Name: pysocket_db
+- User: pysocket_admin 
+- Password: @Y0ur51t3!
+
+(Or you can change the mysql connection setting in config/development.py, config/production.py, and config/testing.py)
 
 Edit the install_script.sh file and update the SITENAME, SITEPREFIX, PASSWORD, and SITE_IP_ADDRESS to your site info
 - If your site is developmentserver.com SITENAME would be developmentserver
