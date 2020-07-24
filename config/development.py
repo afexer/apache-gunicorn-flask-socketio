@@ -1,0 +1,5 @@
+DEBUG = True
+SECRET_KEY = 'h8AbBc2L5WcLoWvR4gFDNTxZrzWAPX3P'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://pysocket_admin:@Y0ur51t3!@localhost/pysocket_db'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+PYTHONUNBUFFERED=True
