@@ -1,4 +1,4 @@
-# apache-gunicorn-flask-socketio
+# apache-gunicorn-flask-socketio on CentOS 7
 A project to create a load balanced websocket server using apache gunicorn and flask-socketio for a CentOs 7 server
 
 ## Setup:
